@@ -48,7 +48,9 @@ exports.login = async (req, res, next) => {
     // avoid password to be returned in the response
     checkUser.setDataValue("password", undefined);
 
-    const token = jwt.sign({ id: checkUser.id }, process.env.SECRET_KEY);
+    const token = jwt.sign({ id: checkUser.id }, process.env.SECRET_KEY, {
+      expiresIn: "2h",
+    });
 
     return res.json({ data: checkUser, token });
   } catch (error) {
