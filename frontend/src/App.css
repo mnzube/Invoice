@@ -1,0 +1,60 @@
+.App {
+  position: relative;
+}
+
+.header {
+  padding-top: 10px;
+}
+
+.auth {
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.auth .auth-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.auth .form {
+  margin-top: 30px;
+}
+
+.group {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.group .auth-input {
+  width: 100%;
+}
+
+.invoices {
+  padding-top: 50px;
+}
+
+.invoices .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-invoice-form {
+  width: 100%;
+  position: relative;
+}
+
+.create-invoice-form input {
+  width: 100%;
+}
+
+.list-right {
+  display: flex;
+  align-items: center;
+}
+
+.list-right .custom-select {
+  margin-right: 30px;
+}
