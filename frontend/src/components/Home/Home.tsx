@@ -68,9 +68,9 @@ const Home = () => {
                         text: "Outstanding",
                       },
                       {
-                        key: "rate",
-                        value: "rate",
-                        text: "Rate",
+                        key: "late",
+                        value: "late",
+                        text: "Late",
                       },
                     ]}
                     clearable
